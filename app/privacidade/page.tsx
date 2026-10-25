@@ -217,7 +217,7 @@ export default function Privacidade() {
           </section>
 
           {/* Seção 5 */}
-          <section>
+          <section id="exclusao-de-conta">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">
               5. Seus Direitos e Exclusão de Conta
             </h2>
@@ -242,16 +242,42 @@ export default function Privacidade() {
                   Excluir Conta e Dados (Direito ao Esquecimento):
                 </strong>{" "}
                 Você pode solicitar a exclusão permanente e irrecuperável da sua
-                conta e de todos os seus dados pessoais.
+                conta e de todos os seus dados pessoais e histórico.
               </li>
             </ul>
+
             <div className="bg-slate-100 p-6 rounded-xl border border-slate-200">
-              <p className="font-semibold text-slate-900">Como excluir:</p>
-              <p className="mt-1 text-base">
-                Acesse o menu "Perfil" no aplicativo e clique no botão "Excluir
-                Minha Conta". Alternativamente, você pode enviar um e-mail para
-                nossa equipe solicitando a deleção de seus registros.
+              <p className="font-semibold text-slate-900 text-lg mb-3">
+                Como solicitar a exclusão da sua conta e dados:
               </p>
+              <ul className="space-y-4 text-base">
+                <li className="flex gap-3">
+                  <span className="text-green-600 font-bold">1.</span>
+                  <div>
+                    <strong>Pelo Aplicativo (Imediato):</strong> Acesse o menu
+                    "Perfil" no aplicativo e clique no botão "Excluir Minha
+                    Conta". Siga as instruções na tela e sua conta será
+                    completamente apagada e anonimizada na mesma hora.
+                  </div>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-green-600 font-bold">2.</span>
+                  <div>
+                    <strong>Pela Web (Sem o aplicativo):</strong> Se você não
+                    tem mais o aplicativo instalado, envie um e-mail para{" "}
+                    <a
+                      href="mailto:recicleplus.usp@gmail.com?subject=Solicitação de Exclusão de Conta"
+                      className="text-green-600 font-bold hover:underline"
+                    >
+                      recicleplus.usp@gmail.com
+                    </a>{" "}
+                    com o assunto{" "}
+                    <strong>"Solicitação de Exclusão de Conta"</strong>,
+                    informando o e-mail que você usou no cadastro. Processaremos
+                    sua solicitação e apagaremos seus dados em até 15 dias.
+                  </div>
+                </li>
+              </ul>
             </div>
           </section>
 
